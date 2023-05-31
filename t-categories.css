@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.back-header{
+    min-height: 75vh;
+    width: 100%;
+    background-image: url(./pexels-darwis-alwan-1817048.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    opacity: 0.8;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    text-decoration:none;
+    
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: none;
+}
+/*----categories-----*/
+
+.background{
+    background: radial-gradient(#fff,#ccf5ff);
+}
+.categories{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.row-2{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    gap: 1%;
+}
+.row-2 h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.row-2 p{
+    text-align: justify;
+}
+.categories-1{
+    flex-basis: 31%;
+    background:#ccc;
+    border-radius: 30px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.categories-1:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+.categories-1 ul li{
+    list-style: none;
+    text-align: center;
+}
+.categories-1 p{
+    text-align: justify;
+}
+.img-c{
+    width: 50%;
+    height: 50%;
+    border-radius: 1000px;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+.row-3{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.row-3 h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.categories-img p iframe{
+    align-items: center;
+    margin-top: 20px;
+}
+@media only screen and (min-width:300px) and (max-width:1000px){
+    .row-2{
+        display: block;
+    }
+    .row-3{
+        display: block;
+    }
+    .row-footer{
+        display: block;
+    }
+}
+/*-------table------*/
+
+.table{
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+
+
+
+/*------footer------*/
+/*references:https://www.htrcc.info/*/
+
+.footer{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+.footer p{
+    color: #8a8a8a;
+}
+.footer h3{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.footer-col-1, .footer-col-2,.footer-col-3,.footer-col-4{
+    min-width: 250px;
+}
+.footer-col-1{
+    flex-basis: 30%;
+}
+.footer-col-2{
+    flex: 1;
+    text-align: center;
+}
+.footer-col-2 img{
+    width: 180px;
+    margin-bottom: 20px;
+}
+.footer-col-3, .footer-col-4{
+    flex-basis: 12%;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+.app-logo{
+    margin-top: 20px;
+}
+.app-logo img{
+    width: 140px;
+}
+.footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+.copyright{
+    text-align: center;
+}
